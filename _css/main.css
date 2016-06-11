@@ -1,0 +1,251 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header > img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+header > h2 {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+h2 > span {
+  color: #5AC4CF;
+  font-weight: 600;
+}
+
+#wrapper {
+	
+}
+
+#wrapper-inner{
+	margin-top: 50px;
+}
+
+section {
+	display: block;
+}
+
+section {
+  padding: 40px 0px;
+}
+
+section.tint {
+  background-color: #f5f5f5;
+}
+  
+section .constrainer {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 10px 0 30px;
+  height: 0;
+}
+
+hr.section-title-rule {
+  border-top: 2px solid #F5E830;
+  width: 100px;
+  margin: 10px auto 30px;
+}
+
+.section-head {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.section-desc {
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.popular-episodes {
+  padding-top: 0;
+}
+  
+.popular-episodes .arc-svg {
+  margin-top: -1px;
+}
+
+.popular-episodes .arc-svg path {
+  fill: white;
+}
+  
+@media (min-width: 830px) {
+  .popular-episodes .constrainer {
+    max-width: 540px; 
+  }
+}
+
+.popular-list:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.popular-list .video-unit {
+  max-width: calc(50% - 24px);
+  float: left;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  background: white;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all ease-in-out 200ms;
+  transition: all ease-in-out 200ms;
+}
+  
+.popular-list .video-unit:nth-child(odd) {
+  margin-right: 20px;
+}
+  
+.popular-list .video-unit:hover {
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.3);
+}
+
+.popular-list .desc {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 75px;
+}
+
+.popular-list .title {
+  text-align: center;
+	color: #383B69;
+	font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.popular-list img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 830px) {
+  .popular-list .video-unit {
+    max-width: calc(37.1% - 46px);
+    margin-right: 20px;
+  }
+  .popular-list .video-unit:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+@media(max-width: 370px) {
+  .popular-list .video-unit {
+    max-width: 220px;
+    margin-right: auto !important;
+    margin: 0px auto 20px !important;
+    box-sizing: border-box;
+    float: none;
+    display: block;
+  }
+}
+
+.popular-episodes .section-head span {
+  font-style: italic;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.popular-episodes .section-head span:after {
+  content: "";
+  display: block;
+  background: rgba(249, 236, 49, 0.3);
+  height: 30px;
+  width: 50px;
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: -5px;
+  -webkit-transform: rotate(24deg) skewY(-24deg);
+          transform: rotate(24deg) skewY(-24deg);
+}
+
+.muted-extra {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5); }
+
+
+.top-rect {
+  width: 100%;
+  padding-top: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #F9EC31;
+  overflow: hidden;
+}
+
+.top-rect:after {
+  content: "";
+  display: block;
+  background: white;
+  height: 400px;
+  width: 8000px;
+  position: absolute;
+  z-index: 1;
+  bottom: -50%;
+  left: 50%;
+  margin-left: -4000px;
+  -webkit-transform: rotate(-6deg);
+          transform: rotate(-6deg);
+}
+
+#social {
+  padding-top: 25px;
+  width: 8%;
+  margin: 0 auto;
+}
+
+#social > a {
+  padding-right: 10px;
+  color: #3A4150;
+}
+
+
+
+
+
+
+
+
+
+
