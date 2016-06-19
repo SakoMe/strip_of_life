@@ -110,16 +110,16 @@
   opacity: 0.8;
   }
 #fullscreen-image img:nth-child(5){
-    -ms-transform: translate(0,10%) scale(1,1);
-    -webkit-transform: translate(0,10%) scale(1,1);
-    transform: translate(0,10%) scale(1,1);
+    -ms-transform: translate(0,10%) scale(1.2,1.2);
+    -webkit-transform: translate(0,10%) scale(1.2,1.2);
+    transform: translate(0,10%) scale(1.2,1.2);
   z-index: 4;
   opacity: 1;
   }
 
 .wrapper-inner-content-image {
   margin: 0 auto;
-  width: 600px;
+  width: 800px;
   position: relative;
 }
 
@@ -130,7 +130,7 @@
 }
 
 .wrapper-inner-content-image img {
-  width: 600px;
+  width: 800px;
   position: absolute;
   left: 0px;
   top: 0px;
